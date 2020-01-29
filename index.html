@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contrast Calculator by RA</title>
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- import google font for navbar heading https://fonts.google.com/ -->
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <h1>Kontrast beregner</h1>
+            
+        </div>
+        <p id="h2">-til MR-undersøgelser med GADOVIST®</p>
+    </header>
+    <div id="input">
+        <input id="weight-input" type="number" placeholder="Indtast vægt i kg.">
+        <button id="button" onclick="onCalcContrast()"">Beregn kontrastmængde</button>
+    </div>
+    <div id="result">
+        <p id="result-text"></p>
+    </div>
+</body>
+</html>
