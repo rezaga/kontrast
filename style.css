@@ -1,31 +1,56 @@
 html, body {
-    width: 100vw;
-    height: 100vh;
-    margin-top: 0;
+    width: ;
+    height: ;
+    margin-top: 10;
     background: url(https://images.unsplash.com/photo-1481007553706-bde1ba8e91fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
-    background-blend-mode: color-burn;
+    
+    
 }
 
-#navbar {
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 180px;
+  }
+  
+.navbar {
     width: 100%;
-    height: 90px;
+    margin-top: 1%;
+    margin-bottom: 1%;
     text-align: center;
-    padding: 25px;
-    background-color:rgba(5, 13, 255, 0.098);
+    background-color:rgba(5, 13, 255, 0.057);
+    font-size: 16px;
     font-family: 'Bowlby One SC', cursive;
-    font-size: 20px;
     color:rgb(27, 16, 60);
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-#h2 {
+.h2 {
     width: 100%;
-    height: 20px;
+    margin-bottom: 2%;
     text-align: center;
-    padding: 5px;
     background-blend-mode: color-burn;
-    background-color: rgba(5, 105, 255, 0.242);
+    background-color: rgba(5, 105, 255, 0.105);
     font-family: 'Varela Round', sans-serif;
     color: rgb(0, 221, 255);
+    height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.btn1{
+    width:120px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.893);
+    border: none;
+    box-shadow: rgb(59, 241, 181);
     
 }
 
@@ -33,18 +58,26 @@ html, body {
     width:;
     padding: 65px;
     text-align: center;
-    background-color: rgba(130, 79, 249, 0.818);
+    background-color: rgba(130, 79, 249, 0.256);
     font-size: 30px;
+
 }
 
 #result {
-    width:;
-    padding: 45px;
+    width:100%;
+    margin-bottom: 2%;
     text-align: center;
-    background-color: rgba(207, 112, 247, 0.352);
-    min-height: 80px;
+    background-color: rgba(207, 112, 247, 0.249);
     font-family: 'Bowlby One SC';
     font-size: 20px;
+    color:rgb(45, 32, 82);
+    height: 50px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 
