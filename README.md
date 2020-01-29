@@ -1,2 +1,3 @@
 # kontrast
-En kontrast beregner til mr undersøgelse. Beregn sker på baggrund af pt. vægt og er forbeholdt Gadovist som kontrastmiddel.
+En kontrast beregner til MR undersøgelser hvor der er vurderet at patienten skal have kontrast iv. 
+Beregningen sker på baggrund af pt. vægt og er forbeholdt Gadovist som kontrastmiddel.
