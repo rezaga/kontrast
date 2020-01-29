@@ -9,24 +9,23 @@
 
     <script src="main.js"></script>
     <link rel="stylesheet" href="style.css">
-    <!-- import google font for navbar heading https://fonts.google.com/ -->
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Varela+Round&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div id="navbar">
+        <div>
+        <div class="navbar">
             <h1>Kontrast beregner</h1>
-            
         </div>
-        <p id="h2">-til MR-undersøgelser med GADOVIST®</p>
+        <p class="h2">-til MR-undersøgelser med GADOVIST®</p>
     </header>
     <div id="input">
-        <input id="weight-input" type="number" placeholder="Indtast vægt i kg.">
+        <input id="weight-input" type="number" placeholder="Indtast vægt i kg." class="btn1">
         <button id="button" onclick="onCalcContrast()"">Beregn kontrastmængde</button>
     </div>
     <div id="result">
         <p id="result-text"></p>
-    </div>
+    </div></div>
 </body>
 </html>
