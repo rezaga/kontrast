@@ -18,14 +18,13 @@ const onCalcContrast = () => {
     let el = document.getElementById("result-text")
     if (weight < 5 ) {
         el.innerHTML = "konferere med din radiolog om mængden af kontrast"
-    }
-    if (weight == 0) {
-        el.innerHTML = "0 ml Gadovist iv."
-    }
     if (weight == "") {
         el.innerHTML = "Skriv en vægt for beregning"
+    if (weight == null){
+        el.innerHTML = "0 ml Gadovist"
     }
-    else {
+    }
+    } else {
         el.innerHTML = contastAmount + ' ml Gadovist iv.'
     }
 }
