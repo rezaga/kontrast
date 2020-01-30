@@ -5,7 +5,7 @@ const calcContrast = weight => {
     } else if (weight >= 5 && weight < 63) {
         return 5
     } else if (weight >= 63 && weight < 75) {
-        return weight * 0.1
+        return weight / 10
     } else {
         return 7.5
     }
