@@ -78,7 +78,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .navbar {
         width: 100%;
         margin-top: 40%;
