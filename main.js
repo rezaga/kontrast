@@ -25,3 +25,12 @@ const onCalcContrast = () => {
         el.innerHTML = contastAmount + ' ml Gadovist iv.'
     }
 }
+window.onload = function() {
+    document.getElementById("weight-input").onkeypress = function searchKeyPress(event) {
+       if (event.keyCode == 13) {
+           document.getElementById("button").click();
+       }
+   };
+
+   document.getElementById(onCalcContrast).onclick = weight;
+} 
