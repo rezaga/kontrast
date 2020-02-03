@@ -22,7 +22,7 @@ const onCalcContrast = () => {
         el.innerHTML = "Skriv en vægt for beregning"
     }
     } else {
-        el.innerHTML = contastAmount + ' ml Gadovist iv.';
+        el.innerHTML = weight + ' kg. = ' + contastAmount + ' ml Gadovist iv.';
     }
 }
 window.onload = function() {
