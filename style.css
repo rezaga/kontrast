@@ -86,13 +86,13 @@ html, body {
         width: 50%;
         box-sizing: border-box;
         border-color: rgba(23, 207, 161, 0.342);
-        background-color: rgba(0, 0, 255, 0.151);
+        background-color: rgba(38, 0, 255, 0.13);
         padding: 1.5rem;
-        font-size: 16px;
+        font-size: 12px;
         font-family: 'Varela Round', sans-serif;
-        justify-content: center;
-        border-style: double;
-        transform-style: preserve-3d;  
+        align-content: center;
+        
+         
     }
     .btnIn {
         width: 50%;
@@ -100,10 +100,10 @@ html, body {
         border-color: rgba(122, 201, 181, 0.342);
         background-color: rgba(253, 253, 253, 0.151);
         padding: 1.5rem;
-        font-size: 18px;
+        font-size: 10px;
         text-align: center;
         text-size-adjust: 20%;
-        justify-content: center; 
+        justify-content: flex-start; 
     }
       
       
