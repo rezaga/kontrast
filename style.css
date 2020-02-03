@@ -1,5 +1,5 @@
 html, body {
-    background: url(https://images.unsplash.com/photo-1481007553706-bde1ba8e91fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80) no-repeat center center fixed;
+    background: url(https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2030&q=80) no-repeat center center fixed;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,7 +35,7 @@ html, body {
     text-align: center;
     background-color: rgba(5, 105, 255, 0.105);
     font-family: 'Varela Round', sans-serif;
-    color: rgb(0, 221, 255);
+    color: rgb(235, 229, 248);
     height: 50px;
 
     display: flex;
@@ -79,17 +79,17 @@ html, body {
     #input {
         padding: 40px;
         text-align: center;
-        font-size: 50px;
+        font-size: 70px;
         border-bottom-width: 1rem;
     }
     .btn {
         width: 70%;
-        box-sizing: border-box;
         border-color: rgb(255, 255, 255);
-        border-radius: 15%;
+        border-radius: 18%;
+        border-left: thin;
         background-color: rgba(130, 79, 249, 0);
         border-style: double;
-        padding: 8%;
+        padding: 7%;
         font-size: 16px;
         font-family: 'Varela Round', sans-serif;
         color: whitesmoke;
@@ -99,14 +99,15 @@ html, body {
          
     }
     .btnIn {
-        width: 70%;
+        width: 60%;
         box-sizing: border-box;
         border-color: rgba(90, 170, 150, 0.342);
-        background-color: rgba(224, 235, 238, 0.63);
+        background-color: rgba(255, 255, 255, 0.39);
         padding: 5%;
-        font-size: 19px;
+        font-size: 17px;
         align-content: center;
         text-align: center;
         border-style: hidden;
+        border-radius: 4%;
     }
 }
