@@ -16,13 +16,13 @@ const onCalcContrast = () => {
     let weight = document.getElementById("weight-input").value
     let contastAmount = calcContrast(weight)
     let el = document.getElementById("result-text")
-    if (weight < 5 ) {
+    if (weight < 5) {
         el.innerHTML = "konferere med din radiolog om mængden af kontrast"
     if (weight == "") {
         el.innerHTML = "Skriv en vægt for beregning"
     }
     } else {
-        el.innerHTML = contastAmount + ' ml Gadovist iv.'
+        el.innerHTML = contastAmount + ' ml Gadovist iv.';
     }
 }
 window.onload = function() {
@@ -30,7 +30,9 @@ window.onload = function() {
        if (event.keyCode == 13) {
            document.getElementById("button").click();
        }
-   };
-
-   document.getElementById(onCalcContrast).onclick = weight;
-} 
+    }
+}
+function clearInputField() {
+    document.getElementById("weight-input").value = "";
+    
+}
