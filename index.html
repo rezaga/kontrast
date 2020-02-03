@@ -13,19 +13,25 @@
 </head>
 
 <body>
+    <div cass="container">
     <header>
-        <div>
         <div class="navbar">
             <h1>Kontrast beregner</h1>
         </div>
         <p class="h2">-til MR-undersøgelser med GADOVIST®</p>
+
     </header>
+
     <div id="input">
-        <input id="weight-input" type="number" placeholder="Indtast vægt i kg." class="btn1" pattern="\d">
-        <button id="button" onclick="onCalcContrast()"">Beregn kontrastmængde</button>
+        <input id="weight-input" type="number" placeholder="Indtast vægt i kg." pattern="\d" class="btnIn">
+        
+        <button id="button" class="btn" onclick="onCalcContrast()">Beregn kontrastmængde</button>
+
     </div>
+
     <div id="result">
         <p id="result-text"></p>
+
     </div></div>
 </body>
 </html>
