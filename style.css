@@ -83,12 +83,12 @@ html, body {
         border-bottom-width: 1rem;
     }
     .btn {
-        width: 50%;
+        width: 70%;
         box-sizing: border-box;
         border-color: rgba(23, 207, 161, 0.342);
         background-color: rgba(38, 0, 255, 0.13);
-        padding: 1.5rem;
-        font-size: 12px;
+        padding: 8%;
+        font-size: 16px;
         font-family: 'Varela Round', sans-serif;
         align-content: center;
         
@@ -99,13 +99,9 @@ html, body {
         box-sizing: border-box;
         border-color: rgba(122, 201, 181, 0.342);
         background-color: rgba(253, 253, 253, 0.151);
-        padding: 1.5rem;
-        font-size: 10px;
+        padding: 5%;
+        font-size: 19px;
+        align-content: center;
         text-align: center;
-        text-size-adjust: 20%;
-        justify-content: flex-start; 
     }
-      
-      
-    
 }
