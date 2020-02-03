@@ -85,23 +85,28 @@ html, body {
     .btn {
         width: 70%;
         box-sizing: border-box;
-        border-color: rgba(23, 207, 161, 0.342);
-        background-color: rgba(38, 0, 255, 0.13);
+        border-color: rgb(255, 255, 255);
+        border-radius: 15%;
+        background-color: rgba(130, 79, 249, 0);
+        border-style: double;
         padding: 8%;
         font-size: 16px;
         font-family: 'Varela Round', sans-serif;
+        color: whitesmoke;
         align-content: center;
+        
         
          
     }
     .btnIn {
-        width: 50%;
+        width: 70%;
         box-sizing: border-box;
-        border-color: rgba(122, 201, 181, 0.342);
-        background-color: rgba(253, 253, 253, 0.151);
+        border-color: rgba(90, 170, 150, 0.342);
+        background-color: rgba(224, 235, 238, 0.63);
         padding: 5%;
         font-size: 19px;
         align-content: center;
         text-align: center;
+        border-style: hidden;
     }
 }
