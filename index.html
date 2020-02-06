@@ -18,14 +18,17 @@
         <div class="navbar">
             <h1>Kontrast beregner</h1>
         </div>
-        <p class="h2">-til MR-undersøgelser med GADOVIST®</p>
+        <p class="h2">-til MR-undersøgelser med GADOVIST® eller Primovist®</p>
 
     </header>
-
     <div id="input">
-        <input id="weight-input" type="number" placeholder="Indtast vægt i kg." pattern="\d" class="btnIn" inputmode="numeric">
+        <select id="selector" class="btn">
+            <option value="Gadovist">Gadovist</option>
+            <option value="Primovist">Primovist</option>
+        </select>
+        <input id="weight-input" type="number" placeholder="Indtast vægt i kg." pattern="\d*" class="btnIn" inputmode="numeric">
         
-        <button id="button" class="btn" onclick="onCalcContrast(),clearInputField()">Beregn kontrastmængde</button>
+        <button id="button" class="btn" onclick="onCalcContrast(), clearInputField()">Beregn kontrastmængde</button>
 
     </div>
 
