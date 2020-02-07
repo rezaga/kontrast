@@ -131,4 +131,7 @@ html, body {
         flex-direction: column;
         justify-content: center;
     }
+     ::placeholder {
+        color: rgb(44, 13, 128);
+    }
 }
