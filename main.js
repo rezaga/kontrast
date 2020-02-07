@@ -31,9 +31,9 @@ const onCalcContrast = () => {
     } else if (weight < 5) {
         el.innerHTML = "konferere med din radiolog om mængden af kontrast"
     } else if (selector.options[selector.selectedIndex].value == "Primovist") {
-        el.innerHTML = weight + " kg. = " + contrastAmountPrim + "ml Primovist iv."
+        el.innerHTML = weight + " kg. =  " + contrastAmountPrim + " ml Primovist iv."
     } else if (selector.options[selector.selectedIndex].value == "Gadovist") {
-        el.innerHTML = weight + " kg. = " + contrastAmount + " ml Gadovist iv."
+        el.innerHTML = weight + " kg. =  " + contrastAmount + " ml Gadovist iv."
     } else {
             el.innerHTML = "konferere med din radiolog om mængden af kontrast"
     }
