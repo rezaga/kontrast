@@ -43,12 +43,22 @@ html, body {
     flex-direction: column;
     justify-content: center;
 }
-
-#input {
-    padding: 55px;
+.label1 {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(235, 229, 248);
+    font-size: 15px;
+}
+#inputS {
+    padding: 5px;
     text-align: center;
     background-color: rgba(130, 79, 249, 0.256);
     font-size: 30px;
+}
+#input {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(130, 79, 249, 0.256);
+    font-size: 40px;
 
 }
 
@@ -72,8 +82,20 @@ html, body {
         margin-top: 15%;
         font-size: 10px;
     }
+    .label1 {
+        font-family: 'Varela Round', sans-serif;
+        color: rgb(235, 229, 248);
+        font-size: 18px;
+    }
     #result {
         width:100%;
+    }
+    #inputS {
+        padding: 5px;
+        font-size: 50px;
+        border-bottom-width: 1rem;
+        margin-top: 2%;
+        align-content: center;
     }
     #input {
         padding: 30px;
@@ -81,6 +103,7 @@ html, body {
         font-size: 70px;
         border-bottom-width: 1rem;
         flex: auto;
+        margin-top: 2%;
     }
     .btn {
         width: 70%;
@@ -131,7 +154,7 @@ html, body {
         flex-direction: column;
         justify-content: center;
     }
-     ::placeholder {
+    ::placeholder {
         color: rgb(44, 13, 128);
     }
 }
