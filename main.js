@@ -48,7 +48,7 @@ const onCalcContrast = () => {
     } else if (selector.options[selector.selectedIndex].value == "Primovist") {
         el.innerHTML = weight + " kg. =  " + contrastAmountPrim + " ml Primovist iv."
     } else if (chk == true) {
-        el.innerHTML = weight + " kg. = " + contrastAmountDob + " ml Gadovist iv." 
+        el.innerHTML = weight + " kg. = " + contrastAmountDob + " ml Gadovist iv. "+"("+"<em>Dobb. kontrast</em>".fontcolor("white")+" )" 
     } else if (selector.options[selector.selectedIndex].value == "Gadovist") {
         el.innerHTML = weight + " kg. =  " + contrastAmount + " ml Gadovist iv."       
     } else {
