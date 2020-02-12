@@ -75,17 +75,21 @@ html, body {
     flex-direction: column;
     justify-content: center;
 }
+#result-text::after {
+    color:rgb(169, 211, 195);
+}
 
 @media (max-width: 600px) {
     .navbar {
         width: 100%;
-        margin-top: 15%;
+        margin-top: 8%;
         font-size: 10px;
     }
     .label1 {
         font-family: 'Varela Round', sans-serif;
         color: rgb(235, 229, 248);
-        font-size: 14px;
+        font-size: 16px;
+        margin-right: 2%;
     }
     #result {
         width:100%;
@@ -157,4 +161,5 @@ html, body {
     ::placeholder {
         color: rgb(44, 13, 128);
     }
+    
 }
