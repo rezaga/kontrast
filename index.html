@@ -6,14 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contrast Calculator by RA</title>
-
+    <link rel="icon" href="/apple-icon-60x60.png" type="image/png">
+    
     <script src="main.js"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Varela+Round&display=swap" rel="stylesheet">
    
-    <link rel="icon" href="apple-icon-60x60.png" type="image/png">
-    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-    
 </head>
 
 <body>
@@ -26,10 +24,16 @@
 
     </header>
     <div id="input">
-        <select id="selector" class="btnInP">
+        <select id="selector" class="" onchange="disCheckBox()">
             <option value="Gadovist">Gadovist (0.1mmol/kg)</option>
-            <option value="Primovist">Primovist (0.25mmol/ml)</option>
+            <option value="Primovist">Primovist(0.25mmol/ml)</option>
         </select>
+        
+        <input type="checkbox" class="chk" id="s1">
+        <label for="s1" class="label1" id="labs1">Metastaser</label>
+        
+        <br>
+
         <input id="weight-input" type="number" placeholder="Indtast vægt i kg." pattern="\d*" class="btnIn" inputmode="numeric">
         
         <button id="button" class="btn" onclick="onCalcContrast(), clearInputField()">Beregn kontrastmængde</button>
